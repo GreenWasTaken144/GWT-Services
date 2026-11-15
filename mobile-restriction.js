@@ -52,4 +52,11 @@
     isMobileDevice: isMobileDevice,
     show: showMobileRestriction
   };
+
+  // Run automatically when this script is included by a page.
+  if (global.document.readyState === "loading") {
+    global.document.addEventListener("DOMContentLoaded", showMobileRestriction);
+  } else {
+    showMobileRestriction();
+  }
 })(window);
