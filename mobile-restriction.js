@@ -1,10 +1,3 @@
-/*
- * Mobile restriction screen
- *
- * This file is intentionally not connected to any HTML page yet. When the
- * mobile experience is ready to be restricted, load this file from the page
- * and call showMobileRestriction() where appropriate.
- */
 (function (global) {
   "use strict";
 
@@ -32,7 +25,7 @@
       "place-items: center",
       "padding: 24px",
       "box-sizing: border-box",
-      "background: #101820",
+      "background: #1a1a1a",
       "color: #ffffff",
       "font-family: system-ui, sans-serif",
       "text-align: center"
